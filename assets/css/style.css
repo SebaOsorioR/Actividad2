@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+
+}
+ul:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in;
+}
+
+.nav1{background-color: black; 
+    width: 20%;
+    height: 100%;
+    color: rgb(81, 88, 95);
+    flex-direction: column;
+    }
+
+
+.separacion{
+    display: flex;
+    flex-direction: column;
+    height: 25vh
+
+}
+.purpura{
+    color: white;
+    font-family: sans-serif;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+.red{
+    color: white;
+    font-family: sans-serif;
+    background-color: red;
+    padding: 1rem;
+}
+.orange{
+    color: white;
+    font-family: sans-serif;
+    background-color: orange;
+    padding: 1rem;
+}
+.blue{
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(71, 71, 226);
+    padding: 1rem;
+
+}
